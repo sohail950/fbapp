@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" crossorigin="anonymous" href="assets/css/main.css" />
+		<title>Demo page - Defaults</title>
+	</head>
+
+	<body>
+		<div class="container-full px-5 main-content bg-white">
+			<h2>Buttons</h2>
+			<div class="row">
+		<div class="col">Primary
+			<ul class="demo">
+				<li><button class="btn btn-primary">Default</button></li>
+				<li><button class="btn btn-primary" href="#">Hover</button></li>
+				<li><button class="btn btn-primary">Focused</button><small></small></li>
+				<li><button class="btn btn-primary active">Active</button></li>
+				<li><button class="btn btn-primary disabled">Disabled</button></li>
+			</ul>
+		</div>
+		<div class="col">Secondary
+			<ul class="demo">
+				<li><button class="btn btn-secondary">Default</button></li>
+				<li><button class="btn btn-secondary">Hover</button></li>
+				<li><button class="btn btn-secondary">Focused</button></li>
+				<li><button class="btn btn-secondary active">Active</button></li>
+				<li><button class="btn btn-secondary disabled">Disabled</button></li>
+			</ul>
+		</div>
+		<div class="col">Tertiary
+			<ul class="demo">
+				<li><button class="btn btn-tertiary">Default</button></li>
+				<li><button class="btn btn-tertiary">Hover</button></li>
+				<li><button class="btn btn-tertiary">Focused</button></li>
+				<li><button class="btn btn-tertiary active">Active</button></li>
+				<li><button class="btn btn-tertiary disabled">Disabled</button></li>
+			</ul>
+		</div>
+	</div>
+
+			<h2>Input</h2>
+			<div class="row">
+				<div class="col">
+					<fieldset class="my-3" disabled>
+						<div class="row g-3 align-items-center">
+							<div class="col-auto">
+								<input
+									class="form-control"
+									type="text"
+									placeholder="Password"
+								/>
+							</div>
+							<div class="col-auto">
+								<span class="form-text">Disabled</span>
+							</div>
+						</div>
+					</fieldset>
+
+					<fieldset class="mt-4">
+						<div class="row g-3 align-items-center">
+							<div class="col-12 label-field">
+								<label>Username</label>
+							</div>
+							<div class="col-auto">
+								<input
+									class="form-control selected"
+									type="text"
+									placeholder=""
+								/>
+							</div>
+							<div class="col-auto">
+								<span class="form-text">Selected state</span>
+							</div>
+						</div>
+					</fieldset>
+
+					<fieldset class="mt-4">
+						<div class="row g-3 align-items-center">
+							<div class="col-12 label-field">
+								<label>Username</label>
+							</div>
+							<div class="col-auto">
+								<input class="form-control selected" type="text" />
+							</div>
+							<div class="col-auto">
+								<span class="form-text">Field state</span>
+							</div>
+						</div>
+					</fieldset>
+
+					<fieldset class="mt-4">
+						<div class="row g-3 align-items-center">
+							<div class="col-12 label-field">
+								<label>Username</label>
+							</div>
+							<div class="col-auto">
+								<input
+									class="form-control disabledInputWithContent"
+									type="text"
+									placeholder="orara"
+									disabled
+								/>
+							</div>
+							<div class="col-auto">
+								<span class="form-text">Field state(disabled)</span>
+							</div>
+						</div>
+					</fieldset>
+
+					<fieldset class="mt-4">
+						<div class="row g-3 align-items-center">
+							<div class="col-12 label-field">
+								<label>Username</label>
+							</div>
+							<div class="col-auto">
+								<input class="form-control" type="text" />
+							</div>
+							<div class="col-auto">
+								<span class="form-text">Focused state</span>
+							</div>
+						</div>
+					</fieldset>
+
+					<fieldset class="mt-4">
+						<div class="row g-3 align-items-center">
+							<div class="col-12 label-field error">
+								<label>Username</label>
+							</div>
+							<div class="col-auto error">
+								<input class="form-control" type="text" placeholder="orara" />
+							</div>
+							<div class="col-auto">
+								<span class="form-text">Invalid state</span>
+							</div>
+						</div>
+					</fieldset>
+
+					<fieldset class="mt-4">
+						<div class="row g-3 align-items-center">
+							<div class="col-12 label-field error">
+								<label>Username</label>
+							</div>
+							<div class="col-auto error">
+								<input
+									class="form-control selected"
+									type="text"
+									placeholder="orara"
+								/>
+							</div>
+							<div class="col-auto">
+								<span class="form-text">Invalid state selected</span>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="col">
+					<fieldset class="my-3" disabled>
+						<div class="row g-3 align-items-center">
+							<div class="col-auto search-form">
+								<input
+									class="form-control search"
+									type="text"
+									placeholder="Search a vehicle..."
+								/>
+							</div>
+							<div class="col-auto">
+								<span class="form-text">Disabled</span>
+							</div>
+						</div>
+					</fieldset>
+
+					<fieldset class="mt-4">
+						<div class="row g-3 align-items-center">
+							<div class="col-12 label-field">
+								<label class="screen-readers-only">search a vehicle</label>
+							</div>
+							<div class="col-auto">
+								<input
+									class="form-control search selected"
+									type="text"
+									placeholder=""
+								/>
+							</div>
+							<div class="col-auto">
+								<span class="form-text">Select state</span>
+							</div>
+						</div>
+					</fieldset>
+
+					<fieldset class="mt-4">
+						<div class="row g-3 align-items-center">
+							<div class="col-12 label-field">
+								<label class="screen-readers-only">search a vehicle</label>
+							</div>
+							<div class="col-auto search-form">
+								<input
+									class="form-control search selected"
+									type="text"
+									placeholder=""
+								/>
+								<img class="withContent" src="./assets/img/cancel.svg" />
+							</div>
+							<div class="col-auto">
+								<span class="form-text">Field state</span>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="col">
+					<fieldset class="">
+						<div class="row g-3 align-items-center">
+							<div class="col-12 label-field">
+								<label>Milage</label>
+							</div>
+							<div class="col-auto milage-form">
+								<input
+									class="form-control miles-text"
+									type="text"
+									placeholder="miles"
+								/>
+							</div>
+							<div class="col-auto">
+								<span class="form-text">Field state</span>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+			</div>
+
+			<h2>Colors</h2>
+			<div class="row">
+				<div class="dot"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+			</div>
+
+			<h2>Checkboxes</h2>
+			<div class="mb-3">
+				<div class="form-check">
+					<input
+						class="form-check-input"
+						type="checkbox"
+						id="disabledFieldsetCheck"
+						disabled
+					/>
+					<label class="form-check-label" for="disabledFieldsetCheck">
+						Disabled
+					</label>
+				</div>
+			</div>
+
+			<div class="mb-3">
+				<div class="form-check">
+					<input
+						class="form-check-input"
+						type="checkbox"
+						id="unselectedFieldsetCheck"
+					/>
+					<label class="form-check-label" for="unselectedFieldsetCheck">
+						Unselected
+					</label>
+				</div>
+			</div>
+
+			<div class="mb-3">
+				<div class="form-check">
+					<input
+						class="form-check-input"
+						type="checkbox"
+						id="selectedFieldsetCheck"
+            checked
+					/>
+					<label class="form-check-label" for="selectedFieldsetCheck">
+						Selected
+					</label>
+				</div>
+			</div>
+
+			<h2>App actions</h2>
+			<div class="row app-actions">
+				<div class="col">
+					<button class="btn app-btn">
+						<span class="minimize"></span></button
+					><button class="btn app-btn">
+						<span class="restore"></span></button
+					><button class="btn app-btn"><span class="close"></span></button>
+					Unselected
+				</div>
+			</div>
+			<div class="row app-actions">
+				<div class="col">
+					<button class="btn app-btn selected">
+						<span class="minimize"></span></button
+					><button class="btn app-btn selected">
+						<span class="restore"></span></button
+					><button class="btn app-btn selected">
+						<span class="close"></span>
+					</button>
+					Selected
+				</div>
+			</div>
+
+			<h2>Menu</h2>
+			<div class="row">
+				<div class="col-2">
+					<ul>
+						<li>
+							<a href="" class="menu-item"
+								><img src="assets/img/car.svg" />
+								<span> My vehicles </span>
+							</a>
+						</li>
+						<li>
+							<a href="" class="menu-item hovered"
+								><img src="assets/img/car.svg" />
+								<span> My vehicles </span>
+							</a>
+						</li>
+						<li>
+							<a href="" class="menu-item focused"
+								><img src="assets/img/car.svg" />
+								<span> My vehicles </span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-3">
+					<ul class="demo-menu">
+						<li>Unselected</li>
+						<li>hovered</li>
+						<li>selected</li>
+					</ul>
+				</div>
+			</div>
+
+			<h2>Listing</h2>
+			<div class="row">
+				<div class="col-7">
+					<ul class="product-list">
+						<li class="product-item">
+							<a href="">
+								<img src="assets/img/products/2020jeeprenegade.png" />
+								<div class="col ms-2 my-auto">
+									<h4>2020 Jeep Renegade</h4>
+									<span>$21,000 </span>
+								</div>
+							</a>
+						</li>
+
+						<li class="product-item">
+							<a href="" class="hovered">
+								<img src="assets/img/products/2020jeeprenegade.png" />
+								<div class="col ms-2 my-auto">
+									<h4>2020 Jeep Renegade</h4>
+									<span>$21,000 </span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-3">
+					<ul class="demo-menu">
+						<li>selected</li>
+						<li>unselected</li>
+					</ul>
+				</div>
+			</div>
+
+			<h2>Typography</h2>
+			<h1>Heading 1 - 80px<br />Medium</h1>
+			<h2>Heading 2 - 32px<br />Medium</h2>
+			<h3>Heading 3 - 24px<br />Medium</h3>
+			<h4>Heading 4 - 20px<br />Medium</h4>
+
+			<h2>Icons</h2>
+			<div class="row">
+				<div class="col-4">
+					<ul>
+						<li>remixicon.com</li>
+						<li><i class="ri-car-fill"></i><span>< i class="ri-car-fill"></></span></li>
+						<li><i class="ri-car-line"></i><span>< i class="ri-car-line"></></span></li>
+						<li><i class="ri-shopping-cart-2-line"></i><span>< i class="ri-shopping-cart-2-line"></></span></li>
+						<li><i class="ri-shopping-cart-2-fill"></i><span>< i class="ri-shopping-cart-2-fill"></></span></li>
+						<li><i class="ri-timer-line"></i><span>< i class="ri-timer-line"></></span></li>
+						<li><i class="ri-timer-fill"></i><span>< i class="ri-timer-fill"></></span></li>
+						<li><i class="ri-dashboard-3-line"></i><span>< i class="ri-dashboard-3-line"></></span></li>
+						<li><i class="ri-dashboard-3-fill"></i><span>< i class="ri-dashboard-3-fill"></></span></li>
+
+					</ul>
+				</div>
+				<div class="col-4">
+					<ul>
+						<li><i class="ri-oil-fill"></i><span>< i class="ri-oil-fill"></></span></li>
+						<li><i class="ri-brush-fill"></i><span>< i class="ri-brush-fill"></></span></li>
+						<li><i class="ri-calendar-fill"></i><span>< i class="ri-calendar-fill"></></span></li>
+						<li><i class="ri-gas-station-fill"></i><span>< i class="ri-gas-station-fill"></></span></li>
+						<li><i class="ri-settings-fill"></i><span>< i class="ri-settings-fill"></></span></li>
+					</ul>
+				</div>
+				<div class="col-4">
+					<ul>
+						<li><i class="ri-eye-off-line"></i><span>< i class="ri-eye-off-line"></></span></li>
+						<li><i class="ri-eye-line"></i><span>< i class="ri-eye-line"></></span></li>
+						<li><i class="ri-search-line"></i><span>< i class="ri-search-line"></></span></li>
+						<li><i class="ri-check-line"></i></i><span>< i class="ri-check-line"></></span></li>
+						<li><i class="ri-close-line"></i><span>< i class="ri-close-line"></></span></li>
+						<li><i class="ri-file-copy-line"></i><span>< i class="ri-file-copy-line"></></span></li>
+						<li><i class="ri-subtract-line"></i><span>< i class="ri-subtract-line"></></span></li>
+					</ul>
+				</div>
+			</div>
+			<!-- /container-full -->
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>

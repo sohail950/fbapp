@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" crossorigin="anonymous" href="assets/css/main.css" />
+    <link rel="stylesheet" crossorigin="anonymous" href="assets/css/carousel.css" />
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- slick css link -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <!-- slider js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>Active vehicles - Unique Leverage</title>
+</head>
+
+<body>
+    <div class="layout">
+        <!-- window actions -->
+        <header class="sticky-top">
+            <div class="text-end app-actions">
+                <button class="btn app-btn">
+            <span class="minimize"></span>
+          </button>
+                <button class="btn app-btn">
+            <span class="restore"></span>
+          </button>
+                <button class="btn app-btn">
+            <span class="close"></span>
+          </button>
+            </div>
+        </header>
+        <!-- navbar -->
+        <div class="nav-content sticky-top">
+            <div class="text-start logo-search-area">
+                <fieldset class="d-flex">
+                    <div class="logo">
+                        <a href="index.html" alt="Go to Main Page"><img src="assets/img/logo-blue.svg" alt="logo" /></a>
+                    </div>
+                    <div>
+                        <div class="search-form">
+                            <div class="has-search">
+                                <span class="fa fa-search form-control-feedback"></span>
+                                <input type="text" class="form-control search" placeholder="Search">
+                            </div>
+                            <input class="form-control search d-none" type="text" placeholder="Search a vehicle..." />
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+
+            <nav class="nav-area text-center d-flex">
+                <ul>
+                    <li>
+                        <a href="#" class="menu-item"><i class="ri-car-fill"></i>
+              <span>My vehicles</span>
+            </a>
+                    </li>
+                    <li>
+                        <a href="active-vehicles.html" class="menu-item focused"><i class="ri-shopping-cart-2-line"></i>
+              <span>Active</span>
+            </a>
+                    </li>
+                    <li>
+                        <a href="pending-vehicles.html" class="menu-item"><i class="ri-timer-line"></i>
+              <span>Pending</span>
+            </a>
+                    </li>
+                    <li>
+                        <a href="cruise-control.html" class="menu-item"><i class="ri-dashboard-3-line"></i>
+              <span>Cruise control</span>
+            </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="user-area">
+                <a href="#"><button class="btn btn-nav">sign out</button></a>
+            </div>
+        </div>
+
+        <!-- side bar -->
+        <div class="sidebar">
+            <ul class="product-list pt-4 ms-3">
+                <div class="product-list-total">
+                    <span class="h4">Active vehicles</span>
+                    <span class="h4 value">(23)</span>
+                </div>
+
+                <legend>Today</legend>
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+
+                <legend>11.28.2021</legend>
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+                <legend>11.25.2021</legend>
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+                <legend>11.24.2021</legend>
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="product-item">
+                    <a href="">
+                        <img src="assets/img/products/2020jeeprenegade.png" />
+                        <div class="my-auto product-text">
+                            <h4>2020 Jeep Renegade</h4>
+                            <span>$21,000 </span>
+                        </div>
+                    </a>
+                </li>
+
+                <div class="pushdiv my-5">&nbsp;</div>
+            </ul>
+        </div>
+        <!-- main content -->
+
+        <div class="main-container-div">
+            <div class="container-div">
+                <div class="main-content-items">
+                    <div class="content-date">
+                        <div class="car-date">11.26.2021</div>
+                    </div>
+                    <div class="main-content-header withDate">
+                        <h2 class="my-1">
+                            2020 Jeep Renegade 4x4 Full Equipped AC/DVD/GPS
+                        </h2>
+                    </div>
+                    <!-- 
+                    <picture>
+                        <img src="assets/img/products/fullwidthproduct.png" />
+                    </picture>
+
+                    <div class="thumbnails">
+                        <div class="thumbarrows">
+                            <img class="arrow left" src="assets/img/arrow.svg" />
+
+                            <div class="picture-thumbs">
+                                <img src="assets/img/products/image 3.png" />
+                                <img src="assets/img/products/image 2.png" />
+                                <img src="assets/img/products/image 4.png" />
+                                <img src="assets/img/products/image 20.png" class="active" />
+                                <img src="assets/img/products/image 3-1.png" />
+                                <img src="assets/img/products/image 2-1.png" />
+                                <img src="assets/img/products/image 4-1.png" />
+                                <img src="assets/img/products/image 4-2.png" />
+                                <img src="assets/img/products/image 21.png" />
+                            </div>
+                            <img class="arrow right" src="assets/img/arrow.svg" />
+                        </div>
+                    </div> -->
+
+                    <!-- slick slider -->
+                    <div class="slider-container position-relative">
+                        <button type="button" class="edit-btn" data-toggle="modal" data-target="#exampleModal">
+                            <img src="./assets/img/editIcon.png" alt="editicon">
+                      </button>
+                        <div class="slider-for">
+
+                            <div class="item">
+                                <img src="assets/img/products/fullwidthproduct.png" />
+                            </div>
+
+                            <div class="item">
+                                <img src="./assets/img/products/fulllwidth1.png" alt="">
+                            </div>
+
+                            <div class="item">
+                                <img src="assets/img/products/fullwidthproduct.png" />
+                            </div>
+
+                            <div class="item">
+                                <img src="./assets/img/products/fulllwidth1.png" alt="">
+                            </div>
+
+                            <div class="item">
+                                <img src="assets/img/products/fullwidthproduct.png" />
+                            </div>
+
+                            <div class="item">
+                                <img src="./assets/img/products/fulllwidth1.png" alt="">
+                            </div>
+
+                            <div class="item">
+                                <img src="./assets/img/products/fulllwidth1.png" alt="">
+                            </div>
+
+                            <div class="item">
+                                <img src="./assets/img/products/fulllwidth1.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./assets/img/products/fulllwidth1.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./assets/img/products/fulllwidth1.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="slider-nav">
+
+                            <div class="item">
+                                <img src="assets/img/products/fullwidthproduct.png" />
+                            </div>
+
+                            <div class="item">
+                                <img src="./assets/img/products/fulllwidth1.png" alt="">
+                            </div>
+
+                            <div class="item">
+                                <img src="assets/img/products/fullwidthproduct.png" />
+                            </div>
+
+                            <div class="item">
+                                <img src="./assets/img/products/fulllwidth1.png" alt="">
+                            </div>
+
+                            <div class="item">
+                                <img src="assets/img/products/fullwidthproduct.png" />
+                            </div>
+
+                            <div class="item">
+                                <img src="./assets/img/products/fulllwidth1.png" alt="">
+                            </div>
+
+                            <div class="item">
+                                <img src="./assets/img/products/fulllwidth1.png" alt="">
+                            </div>
+
+                            <div class="item">
+                                <img src="./assets/img/products/fulllwidth1.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./assets/img/products/fulllwidth1.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./assets/img/products/fulllwidth1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / slick slider -->
+
+                    <div class="atts-and-price-area">
+                        <div class="att-description mt-3">
+                            <ul class="att-description-row">
+                                <li>
+                                    <i class="ri-oil-fill att-icon"></i>
+                                    <div class="my-auto product-text">
+                                        <div class="att-title">Fuel type</div>
+                                        <span>Diesel</span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <i class="ri-brush-fill att-icon"></i>
+                                    <div class="product-text">
+                                        <div class="att-title">Exterior color</div>
+                                        <span>White</span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <i class="ri-calendar-fill att-icon"></i>
+                                    <div class="product-text">
+                                        <div class="att-title">Year</div>
+                                        <span>2020</span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <i class="ri-gas-station-fill att-icon"></i>
+                                    <div class="my-auto product-text">
+                                        <div class="att-title">MPG</div>
+                                        <span>23</span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <i class="ri-settings-fill att-icon"></i>
+                                    <div class="my-auto product-text">
+                                        <div class="att-title">Transmition</div>
+                                        <span>Automatic</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="price-area">
+                        <fieldset class="mt-2">
+                            <div class="g-3 align-items-center">
+                                <div class="label-field">
+                                    <label>Price</label>
+                                </div>
+                                <div class="col-auto">
+                                    <input class="form-control" type="text" placeholder="$" />
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset class="mt-2">
+                            <div class="g-3 align-items-center">
+                                <div class="label-field">
+                                    <label>Milage</label>
+                                </div>
+                                <div class="col-auto">
+                                    <input class="form-control" type="text" />
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="product-paragraphs mt-4">
+                        <h4>Description:</h4>
+                        <p>
+                            Vroom is a national online retailer that allows you to shop thousands of high-quality vehicles online, delivered straight to you contact-free. With Vroom, browse and shop through an extensive inventory of low-mileage, competitively priced cars, and trucks
+                            available for purchase, with easy online financing and new inventory added every day. No haggling. No pressure. Buy your next vehicle from Vroom, have it delivered straight to you, and never visit a dealership again. Have a
+                            car to trade-in? Vroom offers hassle-free, no obligation quotes and they will even pick it up. Learn more at Vroom.com.Vroom only sells cars and trucks with clean titles, that are free of fire, flood and frame damage and have
+                            accident-free CARFAX vehicle history reports at the time of purchase and sale. Every Vroom vehicle must also pass safety, mechanical and cosmetic inspections before it is sold. If a vehicle does not meet Vroom's retail standards,
+                            they do not list the vehicle for sale on the site.The vehicle displayed on this page was identified as being in-stock through the dealer's frequently updated inventory feed. This vehicle is subject to prior sale and may become
+                            unavailable. Please contact the dealer to confirm availability.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product actions  -->
+        <div class="product-actions mt-2 py-1">
+            <button class="btn btn-primary">Remove from market</button>
+            <button class="btn btn-secondary ms-2">Save changes</button>
+            <button class="btn btn-tertiary ms-2">See on market</button>
+        </div>
+        <!-- </div> -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content position-relative">
+                    <div class="modal-body">
+                        <picture>
+                            <img src="assets/img/products/fullwidthproduct.png" />
+                        </picture>
+                        <div class="textwrapper my-4">
+                            <span class="edit-text">Edit Cover Image</span>
+                        </div>
+
+                        <div>
+                            <div class="textwrapper my-4">
+                                <span class="header-text">Other Images</span>
+                                <span class="disable-text d-block">Drag them to re-arrange the Pictures</span>
+                            </div>
+                            <div class="pictures">
+                                <img src="assets/img/products/image 3.png" />
+                                <img src="assets/img/products/image 2.png" />
+                                <img src="assets/img/products/image 4.png" />
+                                <img src="assets/img/products/image 20.png" class="active" />
+                                <img src="assets/img/products/image 3-1.png" />
+                                <img src="assets/img/products/image 2-1.png" />
+                                <img src="assets/img/products/image 4-1.png" />
+                                <img src="assets/img/products/image 4-2.png" />
+                                <img src="assets/img/products/image 21.png" />
+                                <div class="add-more">
+                                    <button>
+                                        <img src="./assets/img/plus.svg" alt="add">
+                                        <span>Add More</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary w-100">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /modal -->
+
+        <!-- script -->
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <!-- slick Carousel CDN -->
+        <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+
+        <script>
+            $('.slider-for').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                fade: true,
+                // asNavFor: '.slider-nav',
+                autoplay: false,
+                autoplay: true,
+                // fade: false,
+                adaptiveHeight: true,
+                infinite: false,
+                // useTransform: true,
+                // speed: 400,
+                // cssEase: 'cubic-bezier(0.77, 0, 0.18, 1)',
+            });
+
+            $('.slider-nav')
+                .slick({
+                    slidesToShow: 7,
+                    slidesToScroll: 1,
+                    asNavFor: '.slider-for',
+                    dots: false,
+                    centerMode: true,
+                    focusOnSelect: true,
+                    infinite: true,
+                    centerPadding: '0px',
+                    prevArrow: '<div class="slick-prev"><img src="assets/img/arrow-right.png" alt="arrow" /></i></div>',
+                    nextArrow: '<div class="slick-next"><img src="assets/img/arrow-left.png" alt="arrow"/></i></div>',
+                    // draggable:false,
+                    responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 5,
+                            slidesToScroll: 5,
+                        }
+                    }, {
+                        breakpoint: 640,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 4,
+                        }
+                    }, {
+                        breakpoint: 420,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                        }
+                    }]
+                });
+        </script>
+        <!-- /scripo -->
+</body>
+
+</html>
